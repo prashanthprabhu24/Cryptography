@@ -32,5 +32,9 @@ So that your messages are protected as secret from others. No body knows what me
 * By tapping out dots and dashes with a one button telegraph, a telegraph operator could communicate an English message to someone on the other side of the world almost instantly!<br/>
 * Codes are made to be understandable and publicly available.<br/>
 * Anyone should be able to look up what a code’s symbols mean to decode an encoded message.<br/>
+* From Morse Code, to many advance secured Agorithms are used from different century. Today we use RSA which no one able to crack till now.
+* Today we have fast computers that can do millions of computations per second which makes brute force attack on many old crypto systems vulnerable.
+* Algorithms used today by by google and etc to secure web pages and bank systems are still secure even with super computers that are 1000+ times faster than regular computers.
 
-
+### Map : 
+* 
