@@ -1,6 +1,8 @@
 Description<a name="Top"></a>
-============
-### Project that consists of Python Programs that implements most of Cryptography Algorithms and shows Encryption and Decryption procedures and cracking few by Brute Force Attack!
+===============================
+Project that consists of Python Programs that implements most of Cryptography Algorithms and shows Encryption and Decryption procedures and cracking few by Brute Force Attack!
+
+- - - - 
 
 # Cryptography : Its a a Method of protecting information and communication through the use of codes.
 
