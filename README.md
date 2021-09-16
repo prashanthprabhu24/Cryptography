@@ -6,8 +6,12 @@ Project that consists of Python Programs that implements most of Cryptography Al
 
 ## Cryptography : Its a Method of protecting information and communication through the use of codes.
 
-The purpose of cryptography is to make difficult to understand for others on private communication messages between two people.
-So that your messages are protected as secret from others. No body knows what message you sent except you and the reciever.
+The purpose of cryptography is to make difficult to understand for others on private communication messages between two people.</br>
+So that your messages are protected as secret from others. No body knows what message you sent except you and the reciever.</br>
+
+Here You will Learn what are different ways you can protect your data and messages and how it works and why it works.</br>
+Also we convert messages to some code and again back to the original messages.</br>
+Then we will see how you can hack into other crypto algorithms. (Its not illegal on Crypto algorithms we crack).</br>
 
 The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. 
 Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
