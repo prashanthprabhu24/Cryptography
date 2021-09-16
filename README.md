@@ -15,7 +15,7 @@ So that your messages are protected as secret from others. No body knows what me
 1. Then we will see how you can hack into other crypto algorithms. (Its not illegal on Crypto algorithms we crack).</br>
 
 ### Pre-Requisite : 
-1. You Have to know Nothing but few basics of Python Programming. (To Learn Python: https://github.com/prashanthprabhu24/LearnPython (Course 2 only) )
+- [x] You Have to know Nothing but few basics of Python Programming. (To Learn Python: https://github.com/prashanthprabhu24/LearnPython (Course 2 only) )
 
 The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. 
 Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
