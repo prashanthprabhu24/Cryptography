@@ -12,6 +12,7 @@ So that your messages are protected as secret from others. No body knows what me
 Here You will Learn what are different ways you can protect your data and messages and how it works and why it works.</br>
 Also we convert messages to some code and again back to the original messages.</br>
 Then we will see how you can hack into other crypto algorithms. (Its not illegal on Crypto algorithms we crack).</br>
+You Have to know Nothing but few basics of Python Programming. (To Learn Python : https://github.com/prashanthprabhu24/LearnPython )
 
 The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. 
 Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
