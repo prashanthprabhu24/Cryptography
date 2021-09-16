@@ -6,6 +6,8 @@ Project that consists of Python Programs that implements most of Cryptography Al
 
 ## Cryptography : Its a Method of protecting information and communication through the use of codes.
 
+The purpose of cryptography is to make difficult to understand for others on private communication between two people.
+So that your messages are protected secret from others.
 
 The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. 
 Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
