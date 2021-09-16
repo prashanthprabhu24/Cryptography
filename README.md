@@ -4,8 +4,8 @@ Project that consists of Python Programs that implements most of Cryptography Al
 
 - - - - 
 
-# Cryptography : 
-Its a a Method of protecting information and communication through the use of codes.
+##### Cryptography : Its a Method of protecting information and communication through the use of codes.
+
 
 The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. 
 Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
