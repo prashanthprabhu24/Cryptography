@@ -1,12 +1,12 @@
-"""Morse Code Encryption
+"""Morse Code Decryption
 
     @Author: prashanthprabhu1998@gmail.com      Fri 02:00 AM IST, 7 SEPT 2021
 
     DESCRIPTION
-        Morse Code Encryption
+        Morse Code Decryption
         =====================
 
-        Asks an user input message - of any length - and prints back morse code with respect to the Input
+        Asks an user input morse code - of any length - and prints back text message with respect to the Input
         and copies to clipboard.
 """
 import pyperclip
@@ -58,32 +58,37 @@ def mapping():
         '8': '___..',
         '9': '____.',
         '0': '_____'}
-    return MAP
+    ReverseMAP = {}
+    for i in MAP:
+        ReverseMAP[MAP[i]] = i
+    return ReverseMAP
 
 
 def main():
-    print('Morse Code Encryption....')
-    print('Type/Paste in message to convert to Morse Code')
+    print('Morse Code Decryption....')
+    print('Type/Paste in Morse Code to convert to Plain Text')
     myMessage = input('> ')
-    encrypted = encryptMorseCode(myMessage).replace('_','-')
-    print('Encrypted!')
-    print('Copied Encrypted code to Clipboard.')
+    decrypted = decryptMorseCode(myMessage).replace('_','-')
+    print('Decrypted!')
+    print('Copied Decrypted code to Clipboard.')
     print()
-    print(encrypted)
+    print(decrypted)
     print()
-    print('*Truncated remaining code*')
-    pyperclip.copy(encrypted)
+    print('*Truncated remaining messages*')
+    pyperclip.copy(decrypted)
 
 
-def encryptMorseCode(text):
+def decryptMorseCode(code):
     Map = mapping()
-    code = ''
-    for i in text:
-        if i.upper() in Map:
-            code += Map[i.upper()] + ' '
+    # print(Map)
+    text = ''
+    code = code.replace('-','_').split()
+    for i in code:
+        if i in Map:
+            text += Map[i]
         else:
-            code += i
-    return code
+            text += i
+    return text
 
 
 if __name__ == '__main__':
