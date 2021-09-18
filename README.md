@@ -59,4 +59,12 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
      * At last Enter do you want to encrypt or decrypt. Enter "Encrypt" for encryption and "Decrypt" for decryption.
      * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
+  ##### To Hack : 
+     * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
+     * Hacking Affine Cipher is hard because it has many keys to brute force. 
+     * But we try by writing code that can understand the english so that it displayes only valid decrypted message.
+     * Run "affineHacker.py"
+     * It promts to type/Paste the cipher text to hack.
+     * It will run for most keys and prompts when it sees better english type decrypted texts.
+     * If the decrypted texts was foolproof just press <enter> to continue for other keys.
   
