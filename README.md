@@ -53,12 +53,12 @@ Vignere Cipher | * Encryption * Decryption * Hacking
 * Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.</br>
   #### => Affine Cipher : 
   ##### To Encrypt/Decrypt : 
-* Open "Affine Cipher" Folder
-* Run "affineCipher.py". 
-* It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
-* It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
-* At last Enter do you want to encrypt or decrypt. Enter "Encrypt" for encryption and "Decrypt" for decryption.
-* It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
+    * Open "Affine Cipher" Folder
+    * Run "affineCipher.py". 
+    * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
+    * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
+    * At last Enter do you want to encrypt or decrypt. Enter "Encrypt" for encryption and "Decrypt" for decryption.
+    * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
   ##### To Hack : 
      * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
      * Hacking Affine Cipher is hard because it has many keys to brute force. 
