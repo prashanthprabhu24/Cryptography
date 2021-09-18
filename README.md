@@ -48,3 +48,14 @@ Reverse Cipher | * Encryption * Decryption
 Simple Substitution Cipher | * Encryption * Decryption * Hacking
 Transposition Cipher | * Encryption * Decryption
 Vignere Cipher | * Encryption * Decryption * Hacking
+
+### How to Run ? : 
+* Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.
+  #### Affine Cipher : 
+     * Open "Affine Cipher" Folder
+     * Run "affineCipher.py". 
+     * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
+     * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
+     * At last Enter do you want to encrypt or decrypt. Enter "Encrypt" for encryption and "Decrypt" for decryption.
+     * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
+  
