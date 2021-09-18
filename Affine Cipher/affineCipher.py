@@ -2,9 +2,16 @@ import sys, pyperclip, cryptomath, random
 SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~""" # note the space at the front
 
 def main():
-    myMessage = """fX<*h>}(rTH<Rh()?<?T]TH=T<rh<tT<*_))T?<ISrT))I~TSr<Ii<Ir<*h()?<?T*TI=T<_<4(>_S<ISrh<tT)IT=IS~<r4_r<Ir<R_]<4(>_SEf<0X)_S<k(HIS~""" #"""""A computer would deserve to be called intelligent if it could deceive a human into believing that it was human." -Alan Turing"""
-    myKey = 2023
-    myMode = 'decrypt' # set to 'encrypt' or 'decrypt'
+    # myMessage = """fX<*h>}(rTH<Rh()?<?T]TH=T<rh<tT<*_))T?<ISrT))I~TSr<Ii<Ir<*h()?<?T*TI=T<_<4(>_S<ISrh<tT)IT=IS~<r4_r<Ir<R_]<4(>_SEf<0X)_S<k(HIS~""" #"""""A computer would deserve to be called intelligent if it could deceive a human into believing that it was human." -Alan Turing"""
+    # myKey = 2023
+    # myMode = 'decrypt' # set to 'encrypt' or 'decrypt'
+    print('Enter Plain/Cipher Text')
+    myMessage = input('> ')
+    print('Enter the Key')
+    myKey = int(input('> '))
+    print('Enter Mode of operation "Encrypt" or "Decrypt"')
+    myMode = input('> ).title()
+                  
     if myMode == 'encrypt':
         translated = encryptMessage(myKey, myMessage)
     elif myMode == 'decrypt':
