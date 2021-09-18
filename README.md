@@ -70,19 +70,20 @@ Vignere Cipher | * Encryption * Decryption * Hacking
  </br>
   #### => Caesar Cipher : 
   ##### To Encrypt/Decrypt :  
-   * Open "Caesar Cipher" Folder
-   * Run "caesarCipher.py". 
-   * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
-   * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
-   * At last Enter do you want to encrypt or decrypt. Enter "E" for encryption and "D" for decryption.
-   * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
+ * 
+     * Open "Caesar Cipher" Folder
+     * Run "caesarCipher.py". 
+     * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
+     * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
+     * At last Enter do you want to encrypt or decrypt. Enter "E" for encryption and "D" for decryption.
+     * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
   ##### To Hack : 
-   * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
-   * Hacking Caesar Cipher with  brute force attack is simple, As there is only 26 possible keys.
-   * Run "crackCaesarCipher.py"
-   * It promts to type/Paste the cipher text to hack.
-   * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
-   * By looking at each we can say which is valid key.
+     * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
+     * Hacking Caesar Cipher with  brute force attack is simple, As there is only 26 possible keys.
+     * Run "crackCaesarCipher.py"
+     * It promts to type/Paste the cipher text to hack.
+     * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
+     * By looking at each we can say which is valid key.
 </br>
   #### => Morse Code : 
   ##### To Encrypt/Decrypt : 
