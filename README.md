@@ -67,10 +67,9 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It promts to type/Paste the cipher text to hack.
      * It will run for most keys and prompts when it sees better english type decrypted texts.
      * If the decrypted texts was foolproof just press <enter> to continue for other keys.</br>
- </br>
+
   #### => Caesar Cipher : 
   ##### To Encrypt/Decrypt :  
- * 
      * Open "Caesar Cipher" Folder
      * Run "caesarCipher.py". 
      * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
@@ -84,7 +83,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It promts to type/Paste the cipher text to hack.
      * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
      * By looking at each we can say which is valid key.
-</br>
+  
   #### => Morse Code : 
   ##### To Encrypt/Decrypt : 
    * Open "Morse Coder" Folder
@@ -93,7 +92,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
    * It displays the results.
    * Morse code is of public knowledge. So There is nothing to hack in morse Code.
-</br>
+
+
   #### => RSA : 
   ##### To Encrypt/Decrypt : 
    * Open "RSA" Folder
@@ -138,7 +138,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
    * This Cipher is considered has unHackable ages ago. Used everywhere to secure information.
    * Because it can be hacked, today no one is using substitution cipher to keep information secure.
-  </br>
+  
+
    #### =>Transposition Cipher : 
    ##### To Encrypt/Decrypt : 
    * Open "Transposition Cipher" Folder
@@ -161,7 +162,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Run "Cracking Transposition Cipher.py".
    * It prompts to Paste/Type the Cipher text.
    * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
-  </br>
+ 
+ 
    #### =>Vigenere Cipher : 
    ##### To Encrypt/Decrypt : 
    * Open "Vigenere Cipher" Folder
