@@ -36,7 +36,7 @@ def getBlocksFromText(message, blockSize=DEFAULT_BLOCK_SIZE):
         blockInt = 0
         for i in range(blockStart, min(blockStart + blockSize, len(messageBytes))):
             blockInt += messageBytes[i] * (BYTE_SIZE ** (i % blockSize))
-            blockInts.append(blockInt)
+        blockInts.append(blockInt)
     return blockInts
 
 
