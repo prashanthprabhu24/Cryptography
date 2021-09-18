@@ -13,7 +13,7 @@ import pyperclip
 
 def main():
     print('Type (E)ncrypt or (D)ecrypt')
-    mode = input('> ')
+    mode = input('> ').upper()
     if mode.upper().startswith('D'):
         data = reverseDecrypt()
     elif mode.upper().startswith('E'):
