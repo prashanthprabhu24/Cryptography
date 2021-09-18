@@ -154,8 +154,6 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Because it can be hacked, today no one is using substitution cipher to keep information secure.
   
 
-
-
    #### =>Transposition Cipher : 
    ##### To Encrypt/Decrypt : 
    * Open "Transposition Cipher" Folder
@@ -179,8 +177,6 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It prompts to Paste/Type the Cipher text.
    * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
  
- 
-
 
    #### =>Vigenere Cipher : 
    ##### To Encrypt/Decrypt : 
@@ -192,6 +188,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Line Number #32 to change Mode. 'encrypt' for encryption and 'decrypt' for decryption.
    * It will process and Displays the result and also copies to clipboard.
    * Hacking Substitution was impossible until charles babbage hacked it.
+
    ##### To Hack : 
    * Hacking Vigenere cipher is hard too.
    * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
@@ -203,8 +200,9 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It will display the Exact decypher text.
    * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
      
- </br></br></br> 
+  
 Happy Coding * Happy Hacking * Happy Learning * Happy Living * Happy Happy
-</br>
-Mail : prashanthprabhu1998@gmail.com </br>
-More on Python Programming : https://github.com/prashanthprabhu24/LearnPython</br>
+
+Mail : prashanthprabhu1998@gmail.com 
+
+More on Python Programming : https://github.com/prashanthprabhu24/LearnPython
