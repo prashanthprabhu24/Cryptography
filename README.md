@@ -52,6 +52,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
 ### How to Run ? : 
 * Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.
   #### Affine Cipher : 
+  ##### To Encrypt/Decrypt : 
      * Open "Affine Cipher" Folder
      * Run "affineCipher.py". 
      * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
