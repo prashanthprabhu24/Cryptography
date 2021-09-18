@@ -4,7 +4,7 @@ Project that consists of Python Programs that implements most of Cryptography Al
 
 - - - - 
 
-## Cryptography : Its a Method of protecting information and communication through the use of codes.
+## Cryptography : Its a Method of protecting information and communication through the use of codes.</br>
 
 The purpose of cryptography is to make difficult to understand for others on private communication messages between two people.</br>
 So that your messages are protected as secret from others. No body knows what message you sent except you and the reciever.</br>
@@ -15,15 +15,15 @@ So that your messages are protected as secret from others. No body knows what me
 1. Then we will see how you can hack into other crypto algorithms. (Its not illegal on Crypto algorithms we crack).</br>
 
 ### Pre-Requisite : 
-- [x] You Have to know Nothing but few basics of Python Programming. (To Learn Python: https://github.com/prashanthprabhu24/LearnPython (Course 2 only) )
+- [x] You Have to know Nothing but few basics of Python Programming. (To Learn Python: https://github.com/prashanthprabhu24/LearnPython (Course 2 only) )</br>
 
 ### Short History : 
-* The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents. 
-* This was much faster than sending a horseback rider carrying a bag of letters. 
-* However, the telegraph couldn’t directly send written letters drawn on paper. 
-* Instead it could send electric pulses. 
-* A short pulse is called a “dot” and a long pulse is called a “dash”.
-<br/><br/>
+* The development of the electric telegraph in the early 19th century allowed for near-instant communication through wires across continents.</br>
+* This was much faster than sending a horseback rider carrying a bag of letters.</br>
+* However, the telegraph couldn’t directly send written letters drawn on paper.</br>
+* Instead it could send electric pulses.</br>
+* A short pulse is called a “dot” and a long pulse is called a “dash”.</br>
+<br/>
 <img src="https://github.com/prashanthprabhu24/Cryptography/blob/main/Bin/morse.jpg" width="700" height="400" ><br/>
 <br/>
 
@@ -32,9 +32,9 @@ So that your messages are protected as secret from others. No body knows what me
 * By tapping out dots and dashes with a one button telegraph, a telegraph operator could communicate an English message to someone on the other side of the world almost instantly!<br/>
 * Codes are made to be understandable and publicly available.<br/>
 * Anyone should be able to look up what a code’s symbols mean to decode an encoded message.<br/>
-* From Morse Code, to many advance secured Agorithms are used from different century. Today we use RSA which no one able to crack till now.
-* Today we have fast computers that can do millions of computations per second which makes brute force attack on many old crypto systems vulnerable.
-* Algorithms used today by by google and etc to secure web pages and bank systems are still secure even with super computers that are 1000+ times faster than regular computers.
+* From Morse Code, to many advance secured Agorithms are used from different century. Today we use RSA which no one able to crack till now.</br>
+* Today we have fast computers that can do millions of computations per second which makes brute force attack on many old crypto systems vulnerable.</br>
+* Algorithms used today by by google and etc to secure web pages and bank systems are still secure even with super computers that are 1000+ times faster than regular computers.</br></br>
 
 ### Map : 
 Concept :pencil: | Content :bookmark_tabs:
@@ -48,9 +48,9 @@ Reverse Cipher | * Encryption * Decryption
 Simple Substitution Cipher | * Encryption * Decryption * Hacking
 Transposition Cipher | * Encryption * Decryption
 Vignere Cipher | * Encryption * Decryption * Hacking
-
+</br></br>
 ### How to Run ? : 
-* Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.
+* Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.</br>
   #### => Affine Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Affine Cipher" Folder
@@ -67,7 +67,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It promts to type/Paste the cipher text to hack.
      * It will run for most keys and prompts when it sees better english type decrypted texts.
      * If the decrypted texts was foolproof just press <enter> to continue for other keys.</br>
-    
+ </br>
   #### => Caesar Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Caesar Cipher" Folder
@@ -83,7 +83,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It promts to type/Paste the cipher text to hack.
      * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
      * By looking at each we can say which is valid key.
-
+</br>
   #### => Morse Code : 
   ##### To Encrypt/Decrypt : 
      * Open "Morse Coder" Folder
@@ -92,8 +92,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
      * It displays the results.
      * Morse code is of public knowledge. So There is nothing to hack in morse Code.
-
-
+</br>
   #### => RSA : 
   ##### To Encrypt/Decrypt : 
      * Open "RSA" Folder
@@ -118,8 +117,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It displays the result.
      * The reverse cipher just puts the message in reverse order.
      * Reverse Cipher is not really to hide the message. As anyone can still read the encrypted message without decrypting it. 
-  
-
+  </br>
   #### =>Simple Substitution Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Simple Substitution Cipher" Folder
@@ -139,7 +137,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
      * This Cipher is considered has unHackable ages ago. Used everywhere to secure information.
      * Because it can be hacked, today no one is using substitution cipher to keep information secure.
-     
+  </br>
    #### =>Transposition Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Transposition Cipher" Folder
@@ -162,7 +160,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * Run "Cracking Transposition Cipher.py".
      * It prompts to Paste/Type the Cipher text.
      * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
-     
+  </br>
    #### =>Vigenere Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Vigenere Cipher" Folder
@@ -184,8 +182,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It will display the Exact decypher text.
      * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
      
-     
+ </br></br></br>
 Happy Coding. Happy Hacking. Happy Learning. Happy Living. Happy Happy.
-
-Mail : prashanthprabhu1998@gmail.com
-More on Python Programming : https://github.com/prashanthprabhu24/LearnPython
+</br>
+Mail : prashanthprabhu1998@gmail.com </br>
+More on Python Programming : https://github.com/prashanthprabhu24/LearnPython</br>
