@@ -48,9 +48,12 @@ Reverse Cipher | * Encryption * Decryption
 Simple Substitution Cipher | * Encryption * Decryption * Hacking
 Transposition Cipher | * Encryption * Decryption
 Vignere Cipher | * Encryption * Decryption * Hacking
-</br></br>
+
+
+
 ### How to Run ? : 
 * Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.</br>
+
   #### => Affine Cipher : 
   ##### To Encrypt/Decrypt : 
     * Open "Affine Cipher" Folder
@@ -68,6 +71,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It will run for most keys and prompts when it sees better english type decrypted texts.
      * If the decrypted texts was foolproof just press <enter> to continue for other keys.</br>
 
+
+
   #### => Caesar Cipher : 
   ##### To Encrypt/Decrypt :  
      * Open "Caesar Cipher" Folder
@@ -83,7 +88,9 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It promts to type/Paste the cipher text to hack.
      * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
      * By looking at each we can say which is valid key.
-  
+
+
+
   #### => Morse Code : 
   ##### To Encrypt/Decrypt : 
    * Open "Morse Coder" Folder
@@ -92,6 +99,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
    * It displays the results.
    * Morse code is of public knowledge. So There is nothing to hack in morse Code.
+
+
 
 
   #### => RSA : 
@@ -108,7 +117,9 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Then on choosing decrypt, the code reads from the encrypted file and decrypts the texs and writes to decrypted text file.
    * No one ever hacked RSA, because of unable to brute force such hugh keys and Ineffecient computation for factorizing prime numbers.
    * So RSA is used in every web pages, banks, Governments,etc.
-  
+
+
+
   #### => Reverse Cipher : 
   ##### To Encrypt/Decrypt : 
    * Open "Reverse Cipher" Folder
@@ -118,6 +129,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It displays the result.
    * The reverse cipher just puts the message in reverse order.
    * Reverse Cipher is not really to hide the message. As anyone can still read the encrypted message without decrypting it. 
+
+
 
 
   #### =>Simple Substitution Cipher : 
@@ -140,6 +153,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * This Cipher is considered has unHackable ages ago. Used everywhere to secure information.
    * Because it can be hacked, today no one is using substitution cipher to keep information secure.
   
+
+
 
    #### =>Transposition Cipher : 
    ##### To Encrypt/Decrypt : 
@@ -165,6 +180,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
  
  
+
+
    #### =>Vigenere Cipher : 
    ##### To Encrypt/Decrypt : 
    * Open "Vigenere Cipher" Folder
