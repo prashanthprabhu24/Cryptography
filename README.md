@@ -172,8 +172,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
   </br>
    #### =>Vigenere Cipher : 
   ##### To Encrypt/Decrypt : 
-  *
-     * Open "Vigenere Cipher" Folder
+  *  * Open "Vigenere Cipher" Folder
      * Run "vigenereCipher.py".
      * It takes Texts already types in Line Number #4.
      * Edit Line #4 to #30 for custom message to encrypt or decrypt.
@@ -182,8 +181,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It will process and Displays the result and also copies to clipboard.
      * Hacking Substitution was impossible until charles babbage hacked it.
   ##### To Hack : 
-  *
-     * Hacking Vigenere cipher is hard too.
+  *  * Hacking Vigenere cipher is hard too.
      * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
      * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
      * This won't take hugh computation.
