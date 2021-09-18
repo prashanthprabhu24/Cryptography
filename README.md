@@ -204,7 +204,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
      
  </br></br></br>
-Happy Coding           *           Happy Hacking           *           Happy Learning           *           Happy Living           *           Happy Happy
+Happy Coding\t*           Happy Hacking           *           Happy Learning           *           Happy Living           *           Happy Happy
 </br>
 Mail : prashanthprabhu1998@gmail.com </br>
 More on Python Programming : https://github.com/prashanthprabhu24/LearnPython</br>
