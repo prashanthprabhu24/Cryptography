@@ -163,7 +163,29 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It prompts to Paste/Type the Cipher text.
      * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
      
-   
+   #### =>Vigenere Cipher : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Vigenere Cipher" Folder
+     * Run "vigenereCipher.py".
+     * It takes Texts already types in Line Number #4.
+     * Edit Line #4 to #30 for custom message to encrypt or decrypt.
+     * Line Number #31 to change Key.
+     * Line Number #32 to change Mode. 'encrypt' for encryption and 'decrypt' for decryption.
+     * It will process and Displays the result and also copies to clipboard.
+     * Hacking Substitution was impossible until charles babbage hacked it.
+  ##### To Hack : 
+     * Hacking Vigenere cipher is hard too.
+     * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
+     * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
+     * This won't take hugh computation.
+     * Run "vigenereHacker.py"
+     * Line #10 has the Cipher text messge.
+     * Edit Line #10 till #36 to give custom Cipher text.
+     * It will display the Exact decypher text.
+     * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
      
+     
+Happy Coding. Happy Hacking. Happy Learning. Happy Living. Happy Happy.
 
-  
+Mail : prashanthprabhu1998@gmail.com
+More on Python Programming : https://github.com/prashanthprabhu24/LearnPython
