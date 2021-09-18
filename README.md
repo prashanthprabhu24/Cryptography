@@ -51,7 +51,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
 
 ### How to Run ? : 
 * Give a pull request to this Repo and Save the complete Project into the any Python IDE project Folder.
-  #### Affine Cipher : 
+  #### => Affine Cipher : 
   ##### To Encrypt/Decrypt : 
      * Open "Affine Cipher" Folder
      * Run "affineCipher.py". 
@@ -66,5 +66,104 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * Run "affineHacker.py"
      * It promts to type/Paste the cipher text to hack.
      * It will run for most keys and prompts when it sees better english type decrypted texts.
-     * If the decrypted texts was foolproof just press <enter> to continue for other keys.
+     * If the decrypted texts was foolproof just press <enter> to continue for other keys.</br>
+    
+  #### => Caesar Cipher : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Caesar Cipher" Folder
+     * Run "caesarCipher.py". 
+     * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
+     * It again prompts to enter the Key used both for encryption and Decryption. Enter any key with higher value. (2023 is i used)
+     * At last Enter do you want to encrypt or decrypt. Enter "E" for encryption and "D" for decryption.
+     * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
+  ##### To Hack : 
+     * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
+     * Hacking Caesar Cipher with  brute force attack is simple, As there is only 26 possible keys.
+     * Run "crackCaesarCipher.py"
+     * It promts to type/Paste the cipher text to hack.
+     * It will run for all 26 Keys and displays all combination of keys and decrypted texts.
+     * By looking at each we can say which is valid key.
+
+  #### => Morse Code : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Morse Coder" Folder
+     * Run "MorseCodeEncrypt.py", for encryption.
+     * Run "MorseCodeDecrypt.py", for decryption.
+     * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
+     * It displays the results.
+     * Morse code is of public knowledge. So There is nothing to hack in morse Code.
+
+
+  #### => RSA : 
+  ##### To Encrypt/Decrypt : 
+     * Open "RSA" Folder
+     * Run "makeRsaKeys.py". 
+     * It will creates two file. one to store public keys and other to store private keys.
+     * Keys in RSA will be hugh, always.
+     * Now Run "rsaCipher.py"
+     * It prompts to choose operation mode, Enter "E" or "e" for encryption and "D" or "d" for decryption.
+     * First You need to encrypt with some message to have the cipher text to decrypt later. ("You cant Decrypt without Cipher Text")
+     * On First Run, Choose Encryption.
+     * It prompts to type in plain text to encrypt and writes the encrypted texts to a different text file.
+     * Then on choosing decrypt, the code reads from the encrypted file and decrypts the texs and writes to decrypted text file.
+     * No one ever hacked RSA, because of unable to brute force such hugh keys and Ineffecient computation for factorizing prime numbers.
+     * So RSA is used in every web pages, banks, Governments,etc.
+  
+  #### => Reverse Cipher : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Reverse Cipher" Folder
+     * Run "reversecipher.py". 
+     * It prompts to choose operation mode, Enter "E" or "e" for encryption and "D" or "d" for decryption.
+     * It prompts the message to Type/Paste.
+     * It displays the result.
+     * The reverse cipher just puts the message in reverse order.
+     * Reverse Cipher is not really to hide the message. As anyone can still read the encrypted message without decrypting it. 
+  
+
+  #### =>Simple Substitution Cipher : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Simple Substitution Cipher" Folder
+     * Run "simpleSubCipher.py".
+     * It prompts the Type in the Plain/Cipher Text.
+     * It then Prompts to Type in the Key. Eg : LFWOAYUISVKMNXPBDCRJTQEGHZ
+     * It prompts to choose operation mode, Enter "E" or "e" for encryption and "D" or "d" for decryption.
+     * It will process and Displays the result and also copies to clipboard.
+     * Hacking Substitution was impossible until charles babbage hacked it.
+  ##### To Hack : 
+     * Hacking Substitution cipher is hard. really hard.
+     * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
+     * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
+     * This won't take hugh computation.
+     * Run "simpleSubHacker.py"
+     * It will display the Exact decypher text.
+     * Understanding how we hacking is lil tricky to explain in short. We just use frequency analysis.
+     * This Cipher is considered has unHackable ages ago. Used everywhere to secure information.
+     * Because it can be hacked, today no one is using substitution cipher to keep information secure.
+     
+   #### =>Transposition Cipher : 
+  ##### To Encrypt/Decrypt : 
+     * Open "Transposition Cipher" Folder
+     * Run "transpositionEncrypt.py" for Encryption.
+     * Run "transpositionDecrypt.py" for Decryption.
+     * It prompts the Type in the Text.
+     * It then Prompts to Type in the Key. 
+     * It shows the results.
+     * Also you can Encrypt and Decrypt whole content Text file.
+     * Run "fileEncryptionDecryption.py"
+     * It prompts to type the path to the file you want to access.
+     * It asks the Key to do the process.
+     * Then it saves into file that startes with same input filename.
+     * Hacking Transposition Cipher with brute force is hard.
+     * Hacking Transposition Cipher is created in seperate folder.
+     
+  ##### To Hack : 
+     * Hacking Substitution cipher is hard. But possible.
+     * Open "Hacking Transposition Cipher".
+     * Run "Cracking Transposition Cipher.py".
+     * It prompts to Paste/Type the Cipher text.
+     * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
+     
+   
+     
+
   
