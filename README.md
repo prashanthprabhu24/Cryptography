@@ -37,4 +37,14 @@ So that your messages are protected as secret from others. No body knows what me
 * Algorithms used today by by google and etc to secure web pages and bank systems are still secure even with super computers that are 1000+ times faster than regular computers.
 
 ### Map : 
-* 
+Concept :pencil: | Content :bookmark_tabs:
+--------|-------
+Affine Cipher | * Encryption * Decryption * Hacking
+Ceasar Cipher | * Encryption * Decryption * Hacking
+Hacking Transposition Cipher | * Hacking
+Morse Code | * Encryption * Decryption
+RSA | * Encryption * Decryption
+Reverse Cipher | * Encryption * Decryption
+Simple Substitution Cipher | * Encryption * Decryption * Hacking
+Transposition Cipher | * Encryption * Decryption
+Vignere Cipher | * Encryption * Decryption * Hacking
