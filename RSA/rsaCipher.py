@@ -6,18 +6,22 @@ BYTE_SIZE = 256  # One byte has 256 different values.
 
 def main():
     filename = 'encrypted_file.txt'  # the file to write to/read from
-    mode = 'decrypt'  # set to 'encrypt' or 'decrypt'
+    # mode = 'decrypt'  # set to 'encrypt' or 'decrypt'
+    print('Enter mode of operation, (E)ncrypt or (D)ecrypt)
+    mode = input('> ')[0].lower()
 
-    if mode == 'encrypt':
-        message = '''"Journalists belong in the gutter because that is  where the ruling classes throw their guilty 
-        secrets." -Gerald Priestland "The Founding Fathers gave the free press the protection it must have to bare 
-        the  secrets of government and inform the people." -Hugo Black '''
+    if mode == 'e':
+        # message = '''"Journalists belong in the gutter because that is  where the ruling classes throw their guilty 
+        # secrets." -Gerald Priestland "The Founding Fathers gave the free press the protection it must have to bare 
+        # the  secrets of government and inform the people." -Hugo Black '''
+        print('Enter the Message to encrypt')
+        message = input('> ')
         pubKeyFilename = 'keys_pubkey.txt'
         print('Encrypting and writing to %s...' % filename)
         encryptedText = encryptAndWriteToFile(filename, pubKeyFilename, message)
         print('Encrypted text:')
         print(encryptedText)
-    elif mode == 'decrypt':
+    elif mode == 'd':
         privKeyFilename = 'keys_privkey.txt'
         print('Reading from %s and decrypting...' % filename)
         decryptedText = readFromFileAndDecrypt(filename, privKeyFilename)
