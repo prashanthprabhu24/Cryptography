@@ -69,7 +69,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * If the decrypted texts was foolproof just press <enter> to continue for other keys.</br>
  </br>
   #### => Caesar Cipher : 
-  ##### To Encrypt/Decrypt : 
+  ##### To Encrypt/Decrypt :  
+  *
      * Open "Caesar Cipher" Folder
      * Run "caesarCipher.py". 
      * It prompts a Text to type in. Type the Plain text to encrypt or Cipher text to decrypt.
@@ -77,6 +78,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * At last Enter do you want to encrypt or decrypt. Enter "E" for encryption and "D" for decryption.
      * It does the process and displays the result and also copies to the clipboard so you can paste it in a file or mail.
   ##### To Hack : 
+  *
      * If you have a Cipher Text and need to decrypt it but you dont have decryption Key.
      * Hacking Caesar Cipher with  brute force attack is simple, As there is only 26 possible keys.
      * Run "crackCaesarCipher.py"
@@ -86,6 +88,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
 </br>
   #### => Morse Code : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "Morse Coder" Folder
      * Run "MorseCodeEncrypt.py", for encryption.
      * Run "MorseCodeDecrypt.py", for decryption.
@@ -95,6 +98,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
 </br>
   #### => RSA : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "RSA" Folder
      * Run "makeRsaKeys.py". 
      * It will creates two file. one to store public keys and other to store private keys.
@@ -110,6 +114,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
   
   #### => Reverse Cipher : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "Reverse Cipher" Folder
      * Run "reversecipher.py". 
      * It prompts to choose operation mode, Enter "E" or "e" for encryption and "D" or "d" for decryption.
@@ -120,6 +125,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
   </br>
   #### =>Simple Substitution Cipher : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "Simple Substitution Cipher" Folder
      * Run "simpleSubCipher.py".
      * It prompts the Type in the Plain/Cipher Text.
@@ -128,6 +134,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It will process and Displays the result and also copies to clipboard.
      * Hacking Substitution was impossible until charles babbage hacked it.
   ##### To Hack : 
+  *
      * Hacking Substitution cipher is hard. really hard.
      * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
      * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
@@ -140,6 +147,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
   </br>
    #### =>Transposition Cipher : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "Transposition Cipher" Folder
      * Run "transpositionEncrypt.py" for Encryption.
      * Run "transpositionDecrypt.py" for Decryption.
@@ -155,6 +163,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * Hacking Transposition Cipher is created in seperate folder.
      
   ##### To Hack : 
+  *
      * Hacking Substitution cipher is hard. But possible.
      * Open "Hacking Transposition Cipher".
      * Run "Cracking Transposition Cipher.py".
@@ -163,6 +172,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
   </br>
    #### =>Vigenere Cipher : 
   ##### To Encrypt/Decrypt : 
+  *
      * Open "Vigenere Cipher" Folder
      * Run "vigenereCipher.py".
      * It takes Texts already types in Line Number #4.
@@ -172,6 +182,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
      * It will process and Displays the result and also copies to clipboard.
      * Hacking Substitution was impossible until charles babbage hacked it.
   ##### To Hack : 
+  *
      * Hacking Vigenere cipher is hard too.
      * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
      * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
