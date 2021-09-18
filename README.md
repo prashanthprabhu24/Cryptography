@@ -118,7 +118,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It displays the result.
    * The reverse cipher just puts the message in reverse order.
    * Reverse Cipher is not really to hide the message. As anyone can still read the encrypted message without decrypting it. 
-  </br>
+
+
   #### =>Simple Substitution Cipher : 
   ##### To Encrypt/Decrypt : 
    * Open "Simple Substitution Cipher" Folder
