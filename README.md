@@ -142,6 +142,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It prompts to choose operation mode, Enter "E" or "e" for encryption and "D" or "d" for decryption.
    * It will process and Displays the result and also copies to clipboard.
    * Hacking Substitution was impossible until charles babbage hacked it.
+
    ##### To Hack : 
    * Hacking Substitution cipher is hard. really hard.
    * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
