@@ -143,7 +143,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It will process and Displays the result and also copies to clipboard.
    * Hacking Substitution was impossible until charles babbage hacked it.
 
-   ##### To Hack : 
+  ##### To Hack : 
    * Hacking Substitution cipher is hard. really hard.
    * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
    * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
@@ -155,8 +155,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Because it can be hacked, today no one is using substitution cipher to keep information secure.
   
 
-   #### =>Transposition Cipher : 
-   ##### To Encrypt/Decrypt : 
+  #### =>Transposition Cipher : 
+  ##### To Encrypt/Decrypt : 
    * Open "Transposition Cipher" Folder
    * Run "transpositionEncrypt.py" for Encryption.
    * Run "transpositionDecrypt.py" for Decryption.
@@ -171,7 +171,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * Hacking Transposition Cipher with brute force is hard.
    * Hacking Transposition Cipher is created in seperate folder.
      
-   ##### To Hack : 
+  ##### To Hack : 
    * Hacking Substitution cipher is hard. But possible.
    * Open "Hacking Transposition Cipher".
    * Run "Cracking Transposition Cipher.py".
@@ -179,8 +179,8 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It runs with best key and detects which decrypted texts are english like and asks you to continue or stop going for other keys.
  
 
-   #### =>Vigenere Cipher : 
-   ##### To Encrypt/Decrypt : 
+  #### =>Vigenere Cipher : 
+  ##### To Encrypt/Decrypt : 
    * Open "Vigenere Cipher" Folder
    * Run "vigenereCipher.py".
    * It takes Texts already types in Line Number #4.
@@ -190,7 +190,7 @@ Vignere Cipher | * Encryption * Decryption * Hacking
    * It will process and Displays the result and also copies to clipboard.
    * Hacking Substitution was impossible until charles babbage hacked it.
 
-   ##### To Hack : 
+  ##### To Hack : 
    * Hacking Vigenere cipher is hard too.
    * We use frequency Analysis of each and every word in the cipher text to match possible word match with real english words.
    * Repeating this and analysing frequency of letters in words for all words that matches gives pretty good results.
